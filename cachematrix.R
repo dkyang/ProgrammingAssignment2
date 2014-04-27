@@ -1,13 +1,13 @@
 ## These two functions just mimic the example function "makeVector",
 ## you can use "makeCacheMatrix" to build a "matrix object" which can carry 
-## its inversion. At first, its inversion is null. When you use "cacheSolve" to
+## its inversion. At first, its inversion is NULL. When you use "cacheSolve" to
 ## the matrix object for the first time, its inversion will be actually computed 
 ## and stored in the matrix object. When you use "cacheSolve" for the second time,
 ## its inversion will not be computed and will be retrived from the object since
 ## the inversion has been cached.
 
 ## This function just like a "construction function" in OOP.It takes a matrix object 
-## as arguments, and return a "matrix object" which can cache its inversion.
+## as argument, and return a "matrix object" which can cache its inversion.
 ## The returned "matrix object" is actually a list, and has several functions as
 ## its elements.
 
